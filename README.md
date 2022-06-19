@@ -1,3 +1,5 @@
-# Zuri_Huddle_Task
+# Zuri Huddle Task
+
 ## Live site
-### https://lawybanx.github.io/Zuri_Huddle_Task/ 
+
+### <https://lawybanx.github.io/Zuri_Huddle_Task/>
