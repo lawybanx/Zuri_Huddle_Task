@@ -28,6 +28,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   color: var(--dark-cyan);
+  overflow-x: hidden;
 }
 
 .headings {
@@ -461,7 +462,7 @@ span a {
 
 @media screen and (max-width: 375px) {
   .floating-card {
-    padding: 0.5em;
+    padding: 1.5em;
     bottom: -50px;
   }
 }
@@ -487,12 +488,8 @@ span a {
   }
 }
 
-.header-text > * {
-  margin-bottom: 1em;
-}
-
 .header-image {
-  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
+  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s backwards;
 }
 
 @keyframes slide-in-right {
