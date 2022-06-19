@@ -467,6 +467,17 @@ span a {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .footer-content {
+    width: 320px;
+  }
+  
+  
+  .copyrights {
+    width: 320px;
+  }
+}
+
 /* Animations Section */
 
 .header-text {
@@ -489,7 +500,8 @@ span a {
 }
 
 .header-image {
-  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s backwards;
+  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
+    backwards;
 }
 
 @keyframes slide-in-right {
